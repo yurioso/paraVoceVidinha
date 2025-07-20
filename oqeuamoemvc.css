@@ -1,0 +1,47 @@
+body {
+    background-color: #340a0b;
+    color: #b39d69;
+    padding: 50px;
+}
+
+.lista {
+    columns: 2;
+    column-gap: 10px;
+    max-width: 1500px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    animation: girarCores 3s linear infinite;
+}
+
+.titulo {
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+
+.foto {
+    width: 350px;
+    height: auto;
+     transform: translateX(240px) translateY(55px);
+    border-radius: 3%;
+    border: 6px solid #b39d69
+}
+
+.container {
+    display:flex;
+   
+    max-width: 1500px;
+    align-items: flex-start;
+
+}
+
+.temb {
+    max-width: 10000px;
+}
+
+@keyframes girarCores {
+from {filter:hue-rotate(0deg);}
+to {filter:hue-rotate(360deg);}    
+}
+

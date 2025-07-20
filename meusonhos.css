@@ -1,0 +1,25 @@
+body {
+    background-color: #340a0b;
+    color: #b39d69;
+    padding: 50px;
+}
+
+.frase {
+  position: fixed;
+  filter: blur(5px);
+  color: #b39d69;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
+  transition: filter 0.4s ease;
+}
+
+.frase:hover {
+  filter: blur(0);
+  cursor: pointer;
+
+  }
+
+  .titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+  }
